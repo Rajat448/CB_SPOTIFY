@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+/* header section starts */
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-image: linear-gradient(#000000, black);
+    opacity: 80%;
+}
+.head-img{
+    height: 35px;
+    width:35px;
+    display: inline-block;
+}
+.spotify{
+    display: inline-block;
+}
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.5px;
+    cursor: pointer
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+a{
+    text-decoration: none;
+    text-align: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.navbar li a:hover {
+    color: #00ff2a;
+    transition: all 0.4s ease 0s;
+}
+/* header section ends */
+
+/* page1 starts  */
+
+.pg-1{
+    background-color: #d400ff;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.hero-img{
+    padding-top: 6%;
+    padding-left: 12%;
+}
+.hero-content{
+    font-size: 30px;
+    padding-top: 17%;
+    padding-left: 5%;
+    color: white;
+}
+
+.btn{
+    margin-top: 5%;
+    padding: 5%;
+    border:none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    font-size: 15px;
+}
+/* page1 ends  */
+
+
+ /* page-2 starts   */
+.icons{
+    display: inline;
+}
